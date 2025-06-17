@@ -1,0 +1,33 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o fundo preto e texto cinza */
+body {
+    background-color: #1c1c1c; /* Fundo preto */
+    color: #cccccc; /* Texto cinza claro */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333333; /* Cor do cabeçalho cinza escuro */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #ffffff; /* Cor branca para o título */
+}
+
+/* Estilo da seção de conteúdo */
+.content {
+    padding: 20px;
+    margin: 20px;
+    background-color: #2e2e2e; /* Fundo cinza escuro para a seção */
+    border-radius: 8px;
+}
+
