@@ -1,77 +1,89 @@
-/* Reset básico para remover margens e espaçamentos padrão */
+/* Reset de estilo para garantir um layout limpo */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Definir cor de fundo e estilo geral */
+/* Estilo para o corpo da página */
 body {
-    background-color: #2f2f2f;
-    /* Cor de fundo cinza escuro */
-    color: white;
-    /* Cor do texto branca */
+    background-color: #2f2f2f;  /* Cor de fundo cinza escuro */
+    color: #fff;  /* Cor do texto branca */
     font-family: Arial, sans-serif;
-    line-height: 1.6;
 }
 
-/* Estilos do header */
+/* Cabeçalho do site */
 header {
-    background-color: #333;
-    /* Preto */
     text-align: center;
-    padding: 50px 0;
+    padding: 30px 0;
+    background-color: #333;  /* Preto */
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #f1f1f1;
 }
 
 header p {
     font-size: 1.2rem;
-    color: #bbb;
-    /* Cinza claro */
+    color: #bbb;  /* Cinza claro */
 }
 
-/* Estilos para a seção principal */
-section {
-    text-align: center;
-    padding: 40px;
-}
-
-section p {
-    font-size: 1.2rem;
-    color: #ddd;
-    /* Cinza claro */
-}
-
-button {
-    background-color: #444;
-    /* Cinza escuro */
-    color: white;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #555;
-    /* Um tom mais claro de cinza para o hover */
-}
-
-/* Estilo do rodapé */
-footer {
-    background-color: #333;
-    /* Preto */
-    text-align: center;
+/* Estilo para as seções dos caminhões */
+main {
     padding: 20px;
+    text-align: center;
+}
+
+.truck {
+    background-color: #444;  /* Cinza escuro */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.truck h2 {
+    font-size: 2rem;
+    color: #f1f1f1;
+}
+
+.truck img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.specifications {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.specifications h3 {
+    font-size: 1.5rem;
+    color: #ddd;  /* Cinza claro */
+}
+
+.specifications ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.specifications li {
+    font-size: 1.1rem;
+    color: #bbb;  /* Cinza claro */
+    margin-bottom: 8px;
+}
+
+/* Rodapé do site */
+footer {
+    background-color: #333;  /* Preto */
+    text-align: center;
+    padding: 20px 0;
     position: fixed;
-    width: 100%;
     bottom: 0;
+    width: 100%;
 }
 
 footer p {
