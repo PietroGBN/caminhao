@@ -1,22 +1,22 @@
-/* Reset de estilo para garantir um layout limpo */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo para o corpo da página */
+
 body {
-    background-color: #2f2f2f;  /* Cor de fundo cinza escuro */
-    color: #fff;  /* Cor do texto branca */
+    background-color: #2f2f2f;  
+    color: #fff;  
     font-family: Arial, sans-serif;
 }
 
-/* Cabeçalho do site */
+
 header {
     text-align: center;
     padding: 30px 0;
-    background-color: #333;  /* Preto */
+    background-color: #333;  
 }
 
 header h1 {
@@ -26,17 +26,17 @@ header h1 {
 
 header p {
     font-size: 1.2rem;
-    color: #bbb;  /* Cinza claro */
+    color: #bbb;  
 }
 
-/* Estilo para as seções dos caminhões */
+
 main {
     padding: 20px;
     text-align: center;
 }
 
 .truck {
-    background-color: #444;  /* Cinza escuro */
+    background-color: #444;  
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
@@ -62,7 +62,7 @@ main {
 
 .specifications h3 {
     font-size: 1.5rem;
-    color: #ddd;  /* Cinza claro */
+    color: #ddd;  
 }
 
 .specifications ul {
@@ -72,13 +72,13 @@ main {
 
 .specifications li {
     font-size: 1.1rem;
-    color: #bbb;  /* Cinza claro */
+    color: #bbb;  
     margin-bottom: 8px;
 }
 
-/* Rodapé do site */
+
 footer {
-    background-color: #333;  /* Preto */
+    background-color: #333;  
     text-align: center;
     padding: 20px 0;
     position: fixed;
