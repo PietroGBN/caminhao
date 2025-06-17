@@ -1,33 +1,80 @@
-/* Resetando margens e padding */
+/* Reset básico para remover margens e espaçamentos padrão */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Definindo o fundo preto e texto cinza */
+/* Definir cor de fundo e estilo geral */
 body {
-    background-color: #1c1c1c; /* Fundo preto */
-    color: #cccccc; /* Texto cinza claro */
+    background-color: #2f2f2f;
+    /* Cor de fundo cinza escuro */
+    color: white;
+    /* Cor do texto branca */
     font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-/* Estilo do cabeçalho */
+/* Estilos do header */
 header {
-    background-color: #333333; /* Cor do cabeçalho cinza escuro */
+    background-color: #333;
+    /* Preto */
     text-align: center;
-    padding: 20px;
+    padding: 50px 0;
 }
 
 header h1 {
-    color: #ffffff; /* Cor branca para o título */
+    font-size: 2.5rem;
+    color: #f1f1f1;
 }
 
-/* Estilo da seção de conteúdo */
-.content {
+header p {
+    font-size: 1.2rem;
+    color: #bbb;
+    /* Cinza claro */
+}
+
+/* Estilos para a seção principal */
+section {
+    text-align: center;
+    padding: 40px;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #ddd;
+    /* Cinza claro */
+}
+
+button {
+    background-color: #444;
+    /* Cinza escuro */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+    /* Um tom mais claro de cinza para o hover */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    /* Preto */
+    text-align: center;
     padding: 20px;
-    margin: 20px;
-    background-color: #2e2e2e; /* Fundo cinza escuro para a seção */
-    border-radius: 8px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
+footer p {
+    color: #bbb;
+    font-size: 1rem;
+}
